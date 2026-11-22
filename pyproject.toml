@@ -7,12 +7,13 @@ license = "GPL-3.0-only"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = ">=3.8,<3.10"
+python = ">=3.9,<3.10"
 pyqt5 = "^5.15.7"
-pillow = "^9.3.0"
-manga-ocr = "^0.1.8"
+pillow = ">=10,<11"
+manga-ocr = "0.1.16"
 pynput = "^1.7.6"
-huggingface-hub = "0.7.0"
+huggingface-hub = "0.25.2"
+transformers = "4.45.2"
 
 
 [tool.poetry.group.dev.dependencies]
